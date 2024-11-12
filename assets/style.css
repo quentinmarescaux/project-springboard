@@ -16,4 +16,5 @@ body {
 
 #resetTimerButton {
     display: none;
+    color: tomato;
 }
