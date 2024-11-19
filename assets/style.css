@@ -1,5 +1,32 @@
 body {
-    background-color: beige;
+    background-color: #5A61D3;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #FCFCFC;
+    padding: 1em;
+    color: #282C5F;
+}
+
+.navbar .navbar-brand {
+    color: #282C5F;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav {
+    gap: 2em;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #282C5F;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
 }
 
 #timerValue {
@@ -14,7 +41,6 @@ body {
     color: rgb(237, 143, 77);
 }
 
-#resetTimerButton {
-    display: none;
+#stopTimerButton {
     color: tomato;
 }

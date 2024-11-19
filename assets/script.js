@@ -8,7 +8,7 @@ function timerFunction() {
     if (timerValue === 0) {
         document.getElementById("timerValue").style.display = "none";
         document.getElementById("timerDone").style.display = "block";
-        document.getElementById("resetTimerButton").style.display = "block";
+        document.getElementById("stopTimerButton").style.display = "block";
     }
 }
 
@@ -24,9 +24,9 @@ function startTimer() {
     document.getElementById("startTimerButton").style.display = "none";
 }
 
-function resetTimer() {
+function stopTimer() {
     document.getElementById("timerValue").textContent = 5;
-    document.getElementById("resetTimerButton").style.display = "none";
+    document.getElementById("stopTimerButton").style.display = "none";
     document.getElementById("timerDone").style.display = "none";
     document.getElementById("startTimerButton").style.display = "block";
     document.getElementById("timerValue").style.display = "block";
